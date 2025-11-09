@@ -4,59 +4,75 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<meta name="description" content="">
+	<title>Apple Varieties Portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
-	 <div class="container">
-    <!-- Product Photo Section -->
-    <div class="product__photo">
-      <div class="photo-container">
-        <div class="photo-main">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Red Apple">
-        </div>
-        <div class="photo-album">
-          <ul>
-            <li><img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Red Apple"></li>
-            <li><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Honeycrisp-Apple.jpg" alt="Honeycrisp"></li>
-            <li><img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Golden_delicious_apple.jpg" alt="Golden Apple"></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+	<section class="product">
+		<div class="product__photo">
+			<div class="photo-container">
+				<div class="photo-main">
+					<div class="controls">
+						<i class="fa fa-share-alt"></i>
+						<i class="fa fa-heart-o"></i>
+					</div>
+					<img src="https://res.cloudinary.com/john-mantas/image/upload/v1537291846/codepen/delicious-apples/green-apple-with-slice.png"
+						alt="green apple slice">
+				</div>
 
-    <!-- Product Details Section -->
-    <div class="product__details">
-      <h1>product</h1>
-      <p class="price">$7.93</p>
+				<div class="photo-album">
+					<ul>
+						<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png"
+								alt="green apple"></li>
+						<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537303532/codepen/delicious-apples/half-apple.png"
+								alt="half apple"></li>
+						<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537303160/codepen/delicious-apples/green-apple-flipped.png"
+								alt="green apple backside"></li>
+						<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537303708/codepen/delicious-apples/apple-top.png"
+								alt="apple top"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
-      <div class="variant">
-        <span>.variant:</span>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Honeycrisp-Apple.jpg" alt="Green Apple">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Golden_delicious_apple.jpg" alt="Yellow Apple">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Orange_apple.jpg" alt="Orange Apple">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Red Apple">
-      </div>
+		<div class="product__info">
+			<div class="title">
+				<h1>Delicious Apples</h1>
+				<span>CODE: 45999</span>
+			</div>
 
-      <div class="description">
-        <h3>BENEFITS</h3>
-        <ul>
-          <li>Rich in dietary fiber, helping digestion.</li>
-          <li>Packed with vitamins A & C for immunity.</li>
-          <li>Supports heart health and reduces cholesterol.</li>
-          <li>Low-calorie, perfect for weight management.</li>
-        </ul>
-      </div>
+			<div class="price">
+				$ <span>7.93</span>
+			</div>
 
-      <div class="add-to-cart">
-        <button>ADD TO CART</button>
-      </div>
-    </div>
-  </div>
+			<div class="variant">
+				<h3>SELECT A COLOR</h3>
+				<ul>
+					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png"
+							alt="green apple"></li>
+
+					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png"
+							alt="yellow apple"></li>
+
+					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png"
+							alt="orange apple"></li>
+
+					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png"
+							alt="red apple"></li>
+				</ul>
+			</div>
+
+			<div class="description">
+				<h3>BENEFITS</h3>
+				<p>Apples are rich in antioxidants, fiber, and vitamin C. They support heart health, improve digestion, and boost immune strength. Regular consumption helps in maintaining healthy skin and overall vitality.</p>
+			</div>
+
+			<button class="add-to-cart">ADD TO CART</button>
+		</div>
+	</section>
 </body>
 
 </html>
